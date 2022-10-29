@@ -1,0 +1,52 @@
+.header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo img {
+    cursor: pointer;
+}
+.header__nav nav{
+    display: flex;
+    gap: 70px;
+}
+nav li {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    transition: .4s;
+}
+nav li:hover {
+    color: #505050;
+}
+.header__contact {
+    display: flex;
+    align-items: center;
+}
+.contact-location{
+    margin: 0 50px 0 0;
+    display: flex;
+    align-items: center;
+}
+.contact-location img{
+    cursor: pointer;
+}
+.contact-location span {
+    margin: 0 0 0 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.contact-cart img{
+    cursor: pointer;
+}

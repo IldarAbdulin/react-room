@@ -1,0 +1,33 @@
+.design{
+    padding: 20px 0;
+}
+.img-block {
+    text-align: center;
+}
+.about-design {
+    padding: 20px 0;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.design__big-text {
+    width: 50%;
+}
+.design__big-text h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1A1A1A;
+}
+.design__small-text {
+    width: 90%;
+}
+.design__small-text p {
+    margin: 0 0 0 100px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #AAAAAA
+}
