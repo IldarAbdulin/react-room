@@ -2,3 +2,25 @@
     width: 90%;
     margin: 0 auto;
 }
+.approach{
+    width: 70.6%;
+    margin: 0 auto;
+    padding: 80px 0 30px 0;
+}
+.approach p:nth-child(1) {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 52px;
+    color: #AAAAAA;
+    text-align: left;
+}
+.approach p:nth-child(2) {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+    color: #000000;
+    text-align: left;
+}
+.rectanagle-img {
+    padding: 140px 0 20px 0;
+}

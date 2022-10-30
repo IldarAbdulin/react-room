@@ -1,0 +1,29 @@
+.reviews{
+    background: url('./img/backgroundImageForReviews.svg');
+    width: 1340px;
+    height: 800px;  
+}
+.reviews-items {
+    padding: 120px 0 0 195px;
+}
+.reviews-item img {
+    margin: 15px 3px;
+}
+.reviews-item p {
+    width: 21%;
+    margin: -6px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.more-reviews{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+}

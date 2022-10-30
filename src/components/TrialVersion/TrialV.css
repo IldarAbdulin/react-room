@@ -1,0 +1,69 @@
+.motherOfTrial{
+    padding: 100px 0 20px 0;
+}
+.trialV {
+    width: 1200px;
+    margin: 0 auto;
+    height: 445px;
+    border-radius: 2px;
+    background: #F2F2F2;
+}
+.trialV h2 {
+    padding: 50px 0 0 0;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+}
+.trialV__free {
+    width: 55%;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.free-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.free-item p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+}
+.green-button {
+    margin: 65px 0 0 0;
+    text-align: center;
+}
+.green-button button {
+    padding: 5px 24px;
+    border: none;
+    outline: none;
+    background: #46856E;
+    border-radius: 2px; 
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .4s;
+}
+.green-button button:hover {
+    background: #3e7560;
+}
+.footerOfTrialV {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #AAAAAA;
+}
