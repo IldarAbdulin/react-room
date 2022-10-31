@@ -8,11 +8,12 @@ import Reviews from './components/Reviews/Reviews';
 import Advatages from './components/Advantages/Advantages';
 import rectangle from './img/Rectangle.svg'
 import TrialV from './components/TrialVersion/TrialV';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className='container'>
-      <Header />
+    <div>
+      <Header/>
       <Design />
       <Room />
       <Brand />
@@ -26,11 +27,12 @@ function App() {
 
       <Advatages />
 
-      <div className='rectanagle-img'>
+      <div className='rectanagle-img container'>
         <img src={rectangle} />
       </div>  
 
       <TrialV />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,127 @@
+.footer{
+    position: relative;
+    padding: 97px 0 0 175px;
+    height: 620px;
+    background: #2B2B2B;
+    box-shadow: 0px 400px 0px #2B2B2B;
+    display: flex;
+    gap: 0 85px;
+}
+.footer li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 4px 0;
+    transition: .2s;
+}
+.footer li:hover {
+    color: #f0f0f0;
+    transform: translateY(-0.7px);
+}
+.footer__contact-list nav:nth-child(2) {
+    margin: 47px 0 0 0;
+}
+.footer__contact-list nav ul li:nth-child(1) {
+    margin: 0 0 15px 0;
+}
+.footer__contact-list:nth-child(2) nav:nth-child(2) {
+    margin: 65px 0 0 0;
+}
+.footer__social-networks {
+    margin: 0 0 0 30px;
+}
+.footer__social-networks li {
+    margin: 0 0 15px 0;
+}
+.footer__social-img {
+    display: flex;
+    gap: 0 13px;
+}
+.footer__social-img img {
+    transition: .3s;
+    cursor: pointer;
+}
+.footer__social-img img:hover {
+    transform: translateY(-0.5px);
+}
+.footer__join p {
+    margin: 0 0 17px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    text-align: left;
+}
+#join-input{
+    width: 325px;
+    height: 44px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    background: #2B2B2B;
+    box-shadow: 0px 400px 0px #2B2B2B;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+#country {
+    margin: 10px 0 0 225px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    background: #2B2B2B;
+}
+.footer__sign-up {
+    padding: 56px 0 0 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.footer__sign-up p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 0 0 0;
+}
+.footer__join button {
+    margin: 58px 0 0 330px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    background: #2B2B2B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: right;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .5s;
+}
+.footer__join button:hover {
+    background: #3c3c3c;
+    color: #dfdede;
+}
+.footer__rotate-text {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+}
+.footer__rotate-text p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}

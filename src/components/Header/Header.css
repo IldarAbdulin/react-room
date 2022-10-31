@@ -1,5 +1,7 @@
 .header {
     padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +13,7 @@
     display: flex;
     gap: 70px;
 }
-nav li {
+.header nav li {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -22,7 +24,7 @@ nav li {
     cursor: pointer;
     transition: .4s;
 }
-nav li:hover {
+.header nav li:hover {
     color: #505050;
 }
 .header__contact {

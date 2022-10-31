@@ -1,5 +1,7 @@
 .advantages{
     padding: 135px 0 20px 0;
+    width: 90%;
+    margin: 0 auto;
 }
 .advantages__item {
     margin: 20px 0;
